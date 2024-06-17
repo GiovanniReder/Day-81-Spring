@@ -2,6 +2,7 @@ package giovanni.demo_day_one;
 
 
 import giovanni.demo_day_one.entities.Drinks;
+import giovanni.demo_day_one.entities.Menu;
 import giovanni.demo_day_one.entities.Pizza;
 
 import giovanni.demo_day_one.entities.Toppings;
@@ -30,6 +31,8 @@ public class DemoDayOneApplication {
 		Drinks lemonade = (Drinks) cxt.getBean("getLemonade");
 		Drinks water = (Drinks) cxt.getBean("getWater");
 		Drinks wine = (Drinks) cxt.getBean("getWine");
+
+
 
 
 		System.out.println("ECCO IL NOSTRO MENU");

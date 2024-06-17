@@ -2,12 +2,15 @@ package giovanni.demo_day_one;
 
 
 import giovanni.demo_day_one.entities.Drinks;
+import giovanni.demo_day_one.entities.Menu;
 import giovanni.demo_day_one.entities.Pizza;
 import giovanni.demo_day_one.entities.Toppings;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
+
+import java.util.List;
 
 @Configuration
 
@@ -65,11 +68,11 @@ public class BeansConfig {
         return new Toppings("salame" , 86 , 0.99);
     }
 
-    @Bean
-    public void getMenu(){
 
-        System.out.println("Ecco il nostro menu: ");
-        System.out.println();
-    }
+
 
 }
+
+
+
+
